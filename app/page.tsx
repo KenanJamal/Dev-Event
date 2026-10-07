@@ -1,10 +1,9 @@
 const page = () => {
-  console.log("Rendering Home Page");
   return (
-    <div>
-
-      <h1>This is the main landing page of the application.</h1>
-    </div>
+    <section>
+        <h1 className="text-center">The Hub For Every Dev. <br/>Event You Can&#39;t Miss</h1>
+        <p className="text-center mt-5">Hackathon , Meetups and Conferences , All in one place</p>
+    </section>
   );
 };
 export default page;
